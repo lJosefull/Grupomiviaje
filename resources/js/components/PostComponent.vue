@@ -3,31 +3,6 @@
     <div id="contenedor">
 
         <div id="contenedor-1">
-                <div id="bloque">
-                    <li>LINEA DE ATENCIÓN (5) 3557755</li>
-                    <li>WHATSAPP: +57(318)546-4537</li>
-                    <li>SIGUENOS EN REDES: </li>
-                    <li>ESPAÑOL/ENGLISH</li>
-                </div>
-
-
-                 <div id="header">
-                    <div id="logo-1">
-                        <img src="../img/logo.png" alt="">
-                    </div>
-                    <div id="nav">
-                        <li><a href="#" >INICIO</a></li>
-                        <li><a href="#" >NOSOTROS</a></li>
-                        <li><a href="#" >RESERVA TIQUETES</a></li>
-                        <li><a href="#" >DESTINOS</a></li>
-                        <li><a href="#" >DESTINOS</a></li>
-                        <li><a href="#" >SERVICIOS</a></li>
-                        <li><a href="#" ><b>CONTÁCTANOS</b></a></li>
-                        <li><a href="#" id="escribenos">ESCRIBENOS</a></li>
-                        <img id="icono-whatsapp" src="../img/icono-whatsapp.png" alt="">
-                    </div>
-                 </div>
-
             <div id="banner-1">
                 <div id="banner-consulta-1">
                     <h2>CONSULTA TU VIAJE AQUÍ</h2>
@@ -44,14 +19,14 @@
         </div>
 
         <div id="contenedor-2">
-            
+
             <div id="slogan-1">
                 <img src="../img/logo-avion-1.png" alt="">
                 <h2>Paquetes <br> de viaje</h2>
             </div>
 
-            <div id="destinos-2">   
-                
+            <div id="destinos-2">
+
                 <figure id="figure-1">
                     <div class="paquetes">
                         <span>Santa Marta Tour</span><br>
@@ -72,7 +47,7 @@
 
                  <figure id="figure-3">
                     <div class="paquetes">
-                        <span>Cartagena Tour</span><br> 
+                        <span>Cartagena Tour</span><br>
                         <span>Cartagena</span><br>
                         <span class="precio-nulo">$260.000</span><br>
                         <span >$220.000</span><br>
@@ -84,8 +59,8 @@
                         <span>Valledupar Tour</span><br>
                         <span>Valledupar</span><br>
                         <span class="precio-nulo">$120.000</span><br>
-                        <span>$80.000</span><br>       
-                    </div>  
+                        <span>$80.000</span><br>
+                    </div>
                 </figure>
 
             </div>
@@ -130,7 +105,7 @@
                     <div id="ingresar-datos">
                         <div id="nombre-email">
                             <input id="nombre" type="text" placeholder="Nombre"><br>
-                            <input id="email" type="email" placeholder="Correo Electronico">  
+                            <input id="email" type="email" placeholder="Correo Electronico">
                         </div>
                         <div id="flecha-boton">
                             <button type="submit"><img src="../img/flecha-boton-2.png" alt=""></button>
@@ -145,9 +120,9 @@
                 <div id="slogan-3">
                     <span>Recibe las últimas noticias <br>y promociones exclusivas</span>
                 </div>
-                
-                
-            </div> 
+
+
+            </div>
         </div>
         <div id="contenedor-5">
             <div id="izquierda">
@@ -155,7 +130,7 @@
                     <img src="../img/logo.png" alt="">
                 </div>
                 <div id="informacion">
-                    <div id="nav-2">    
+                    <div id="nav-2">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Reserva Tiquetes</a></li>
@@ -164,7 +139,7 @@
                     <li><a href="#">Servicios</a></li>
                 </div>
                 <div id="parrafo-derecha">
-                    <div id="parrafo-1"> 
+                    <div id="parrafo-1">
                         <p>Términos y condiciones <br>
                         Uso de Cookie <br>
                         Políticas de privacidad <br>
@@ -234,12 +209,12 @@
                         </button><br>
                         <button>
                             Acceso webmail empleados
-                        </button>    
-                    </div> 
+                        </button>
+                    </div>
 
                 </div>
             </div>
-        </div> 
+        </div>
         <div id="footer">
             <span>
                 copyright © 2019 Mi viaje Todos los derechos reservados
@@ -269,7 +244,7 @@ $color-base-2:white;
        border:none;
    }
 
-    
+
     #contenedor{
         width:100%;
         height:100%;
@@ -278,7 +253,7 @@ $color-base-2:white;
     #contenedor-1{
         width:100%;
         height:100vh;
-        
+
     a{
        text-decoration: none;
      }
@@ -290,7 +265,7 @@ $color-base-2:white;
        background-color:$color-base;
        color:white;
        padding:1em 1em;
-                  
+
        li{
            font-size:.9em;
        }
@@ -310,12 +285,12 @@ $color-base-2:white;
        justify-content: flex-end;
        background-color:$color-base-2;
        align-items: center;
-       
+
        #logo-1 img{
            width:180px;
            transform: translate(-50%,0%);
        }
-       
+
        #nav{
             display: flex;
             margin-right: 7%;
@@ -360,8 +335,8 @@ $color-base-2:white;
 
        #inputs-1{
            margin: 2em 0px;
-       }    
-       
+       }
+
        h2{
            color:white;
        }
@@ -380,8 +355,8 @@ $color-base-2:white;
            color:white;
            padding: .7em 3em;
            border-radius:18px;
-           outline: none; 
-       }      
+           outline: none;
+       }
 
    }
 }
@@ -391,7 +366,7 @@ $color-base-2:white;
            height:110vh;
            margin-top:1em;
            padding: 3em;
-           
+
 
            #slogan-1{
                display: flex;
@@ -400,7 +375,7 @@ $color-base-2:white;
                height:40vh;
                border-top:2px solid $color-base;
                text-align: center;
-               
+
                img{
                    width:700px;
                }
@@ -412,19 +387,19 @@ $color-base-2:white;
                    transform: translate(-60%,0%);
                }
            }
-           
+
            #destinos-2{
                display: flex;
                justify-content: space-around;
                color:#5982C0;
                font-size: 1.2em;
                text-align: center;
-               
+
                img{
                    width:100px;
                    height:100px;
                }
-               
+
                figure{
                    width:300px;
                    height: 470px;
@@ -436,7 +411,7 @@ $color-base-2:white;
 
                #figure-1{
                    background-image:url(../img/santa_marta.jpg);
-                   
+
                }
 
                #figure-2{
@@ -458,11 +433,11 @@ $color-base-2:white;
                .paquetes{
                    width:100%;
                    height:30%;
-                   padding:.5em 0px; 
-                   background-color:#C0C0C2;  
+                   padding:.5em 0px;
+                   background-color:#C0C0C2;
                    letter-spacing: 1px;
-                   
-                   
+
+
                }
            }
 
@@ -472,7 +447,7 @@ $color-base-2:white;
            width:100%;
            height:100vh;
            padding: auto 3em;
-           
+
            #avion-1{
             text-align:center;
            }
@@ -486,7 +461,7 @@ $color-base-2:white;
                margin:auto;
                display:flex;
                justify-content: space-around;
-               
+
                .flecha{
                    height:100%;
                    background-color:$color-base;
@@ -511,9 +486,9 @@ $color-base-2:white;
                        position: left;
                        border-radius:10px;
                    }
-               } 
-           } 
-           
+               }
+           }
+
        }
 
        #contenedor-4{
@@ -524,16 +499,16 @@ $color-base-2:white;
            padding:0px 3.5em;
            background-image:url(../img/banner-cartagena.jpg);
            background-position:center left;
-           
+
            ::placeholder{
                color:skyblue;
-           } 
-           
+           }
+
            #noticias{
-               width:100%;   
+               width:100%;
                 display: flex;
                 align-items:center;
-    
+
            }
 
            #ingresar-datos{
@@ -550,7 +525,7 @@ $color-base-2:white;
                #nombre{
                    width:80%;
                    border-bottom: 2px solid #717171;
-               } 
+               }
 
                #flecha-boton{
                    border-left:2px solid #717171;
@@ -558,8 +533,8 @@ $color-base-2:white;
                        width:70px;
                        height:70px;
                        background: white;
-                       
-                   } 
+
+                   }
                }
            }
 
@@ -599,12 +574,12 @@ $color-base-2:white;
                width:50%;
                padding:1em 2em;
                line-height: 2em;
-               
-               
+
+
                a{
                    color:skyblue;
                    text-decoration: none;
-               } 
+               }
 
                #informacion{
                    display: flex;
@@ -645,7 +620,7 @@ $color-base-2:white;
 
                   #parrafo-1{
                       margin-bottom:1em;
-                  } 
+                  }
 
                   button{
                       width:100%;
@@ -655,8 +630,8 @@ $color-base-2:white;
                       border-radius:10px;
                       margin:.6em 0px;
                       outline: none;
-                  } 
-               } 
+                  }
+               }
            }
        }
 
@@ -689,14 +664,14 @@ $color-base-2:white;
 
 //Dispositivos grandes
 @media only screen and(max-width:992px){
-   
+
 }
 
 //Dispositivos extra grandes
 @media only screen and(max-width:1200px){
 
-} 
-      
+}
+
 
 </style>
 
@@ -706,12 +681,12 @@ $color-base-2:white;
             console.log('Component mounted.')
         },
         data:{
-            
+
         },
         method:{
 
         }
 }
-        
-    
+
+
 </script>
